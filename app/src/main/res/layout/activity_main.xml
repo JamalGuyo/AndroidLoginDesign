@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.root.a201login.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:text="Dynamic Style"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:text="lorem ipsumaw sample texteres here lorem ipsum sample texts here lorem ipsum sample texts here lorem ipsum sample texts here lorem ipsum sample texts here lorem ipsum sample texts here lorem ipsum sample texts here lorem ipsum sample texts here"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="learn more"
+                android:textColor="#fff"
+                android:background="@drawable/buttonstylepink"/>
+            <Button
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="join the club"
+                android:textColor="#fff"
+                android:background="@drawable/buttonstylestroke"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <EditText
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="USERNAME"/>
+        <EditText
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonstylepink"
+            android:textColor="#fff"
+            android:text="login"
+            android:drawableRight="@drawable/ic_send_black_24dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
